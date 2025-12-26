@@ -18,5 +18,5 @@ For "unauthed endpoints you will not need any headers.
 ### Errors:
 - 401: missing or invalid api key
 ### Endpoints:
-- [auther](/authed)
+- [authed](/authed)
 - unauthed (docs coming soon)
