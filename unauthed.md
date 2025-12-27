@@ -8,6 +8,8 @@ title: Unauthed API endpoints
 ### GET /announcement
 Gets the currect announcement.
 Success response: 200 {announcement: ANNOUNCEMENT}
+[try](https://thenamelessdev.com/projects/request?url=https://thenamelessdev.com/api/v1/announcement&method=GET)
+
 ### POST /request
 A request proxy thing
 Required body keys:
@@ -18,3 +20,4 @@ Required body keys:
 Successful response: 200 {status: RESPONSE_STATUS_CODE, body: RESPONSE_BODY, headers: RESPONSE_HEADERS}
 Errors:
 - 400: invalid method, invalid url or missing field (URL and/or method)
+[try](https://thenamelessdev.com/projects/request?url=https://thenamelessdev.com/api/v1/request&method=POST)
