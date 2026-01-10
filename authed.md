@@ -42,3 +42,8 @@ Succesful response: 200 {output: ENCODED OUTPUT}
 Errors: 400 times in NaN, 500 error while decoding
 
 [try](https://thenamelessdev.com/projects/request?url=https://thenamelessdev.com/api/v1/decode&method=POST)
+
+### GET /typeword/rooms?room=
+Gets a specific room
+Successful response: 200 {room: {name: ROOM_NAME, host: ROOM_HOST, player: ROOM_PLAYER, winner: ROOM_WINNER}}
+Errors: 400: missing room query, 404: room not found
