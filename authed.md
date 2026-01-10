@@ -18,7 +18,7 @@ Succesful response: 200 {clicks: CLICK_COUNT}
 
 [try](https://thenamelessdev.com/projects/request?url=https://thenamelessdev.com/api/v1/clicks&method=GET)
 
-### GET /rooms?room=
+### GET /ttt/rooms?room=
 Gets the room. Use the required room query to specify the room name
 Successful response: 200 {room: name: ROOM_NAME, host: ROOM_HOST, player: PLAYYER}
 Error responses:
